@@ -31,7 +31,7 @@ main{
     display: flex;
     align-items: center;
     width: 28.125rem;
-    height: 43.5625rem;
+    height: 42.5625rem;
     flex-shrink: 0;
     border-radius: 1.25rem;
     background: #FFF;
@@ -60,7 +60,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 22.125rem;
-     margin-top: 1.82rem;
+    margin-top: 1.82rem;
     color: #1F2E55;
     font-family: Red Hat Display;
     font-size: 1.75rem;
@@ -211,15 +211,51 @@ main{
             align-items: center;
             width: 20.4375rem;
             height: 35.4375rem;
-        
         }
 
-        .hero{
-            display: flex;
-            width: 20.4375rem;
-            height: 10rem;
-            border-radius: 1.25rem 1.25rem 0rem 0rem;
-            background: url(/images/illustration-hero.svg);
-       
+    .hero{
+        display: flex;
+        width: 20.4375rem;
+        height: 10rem;
+        border-radius: 1.25rem 1.25rem 0rem 0rem;
+        background: url(/images/illustration-hero.svg);
+        background-size: contain;
     }
+
+    .texto h1{
+        width: 16.4375rem;
+        font-size: 1.375rem;
+    }
+    .texto p{
+        width: 16.4375rem;
+        font-size: 0.9375rem;
+    }
+
+    .plan{
+        display: flex;
+        width: 17.4375rem;
+        height: 5.0625rem;
+    }
+    .text-plan h2{
+        font-size: 0.875rem;
+    }
+    .text-plan p{
+        font-size: 0.875rem;
+    }
+    .plan img{
+        display: flex;
+        margin-left: 1rem;
+    }
+
+    .link{
+        display: flex;
+        margin-left: 3rem;
+        font-size: 0.8125rem; 
+    }
+
+    .boton button{
+        width: 17.4375rem;
+        height: 3.125rem;   
+        }
+    
 }
