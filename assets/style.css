@@ -197,3 +197,29 @@ main{
         cursor: pointer;
         color: #1F2E55;
     }
+
+    @media(375px <= width <= 1024px){
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+        }
+
+        .container{
+            display: flex;
+            align-items: center;
+            width: 20.4375rem;
+            height: 35.4375rem;
+        
+        }
+
+        .hero{
+            display: flex;
+            width: 20.4375rem;
+            height: 10rem;
+            border-radius: 1.25rem 1.25rem 0rem 0rem;
+            background: url(/images/illustration-hero.svg);
+       
+    }
+}
