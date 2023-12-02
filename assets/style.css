@@ -218,7 +218,7 @@ main{
         width: 20.4375rem;
         height: 10rem;
         border-radius: 1.25rem 1.25rem 0rem 0rem;
-        background: url(/images/illustration-hero.svg);
+        background: url(../images/illustration-hero.svg);
         background-size: contain;
     }
 
